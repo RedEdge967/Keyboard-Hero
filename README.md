@@ -16,7 +16,7 @@
 - Extract the folder
 - Run `index.html` file in your browser
 ---
-## Can I contribute?
+## Can I [contribute?](https://github.com/RedEdge967/Keyboard-Hero/blob/master/CONTRIBUTING.md)
 - Sure, open an issue, point out errors, and what not. Wanna fix something yourselves, you're welcome to open a pull request and I appreciate it.
 ---
 ### Browser Support
