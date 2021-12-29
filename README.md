@@ -24,4 +24,18 @@
 --- | --- | --- | --- | --- |
 Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ |
 ---
+## Cloning
+### Cloning with HTTPS
+```
+https://github.com/RedEdge967/Keyboard-Hero.git
+```
+### Cloning with SSH
+```
+git@github.com:RedEdge967/Keyboard-Hero.git
+```
+### Cloning with Github CLI
+```
+gh repo clone RedEdge967/Keyboard-Hero
+```
+---
 > ### If you found this FOSS as a useful software, don't forget to give a star and fork to make a upgraded version of Keyboard hero with adding your own features.
