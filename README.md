@@ -4,6 +4,9 @@
 ---
 ### 🔗 Link: https://rededge967.github.io/Keyboard-Hero
 ---
+## Preview
+![Keyboard Hero preview](https://user-images.githubusercontent.com/91379432/147643717-5d033687-bed2-4be4-8bc4-80dca284746d.PNG)
+---
 ## Running `Keyboard Hero`
 ### Running `online`
 - Open up your browser
