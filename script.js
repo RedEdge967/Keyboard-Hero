@@ -26,7 +26,7 @@ function getTimestamp() {
 
 document.addEventListener("keyup", event => {
   const keyPressed = String.fromCharCode(event.keyCode);
-  const keyElement = document.getElementById(keyPressed);
+  const keyElement = document.getElementById(keyPressed); 
   const highlightedKey = document.querySelector(".selected");
   
   keyElement.classList.add("hit")
@@ -35,12 +35,14 @@ document.addEventListener("keyup", event => {
   })
   
   if (keyPressed === highlightedKey.innerHTML) {
+    let audio = new Audio("keyboard_sound1.m4a");
+    audio.play();
     timestamps.unshift(getTimestamp());
     const elapsedTime = timestamps[0] - timestamps[1];
     console.log(`Character per minute ${60/elapsedTime}`)
     highlightedKey.classList.remove("selected");
     targetRandomKey();
-  } 
+  }   
 })
 
 targetRandomKey();
